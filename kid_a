@@ -7,5 +7,6 @@ Nor all thy Tears wash out a Word of it.
 
 I'm replacing the conflict with this line.
 
-Next: I'm going to add this section from project 1, commit and push. 
-      I'll edit this file from project 2, and then try to fetch without committing the local changes. 
+I used a stash (git stash) to store the local changes to this section. 
+I called git merge, which fast-forwarded. Then calling 'git stach apply'
+behaved like a local merge, creating the usual conflict message.
